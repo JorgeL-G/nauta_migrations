@@ -1,0 +1,10 @@
+name: nauta_migrations
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pymongo>=4.0.0
+      - click>=8.0.0
+      - python-dotenv>=0.19.0
